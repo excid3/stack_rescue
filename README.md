@@ -6,7 +6,7 @@ Rails 3 and 4 apps can automatically see Google search results for the exception
 
 Add this line to your application's Gemfile:
 
-    gem 'stack_rescue'
+    gem 'stack_rescue', group: :development
 
 And then execute:
 
