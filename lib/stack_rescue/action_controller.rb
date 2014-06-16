@@ -14,7 +14,7 @@ class StackRescue
 
     def stack_rescue_helper(exception)
       Rails.logger.debug "\nRelated errors to '#{exception}' on :\n".red
-      Rails.logger.debug StackRescue.new(exception, Rails.configuration.stack_rescue)
+      Rails.logger.debug StackRescue.new(exception)
       raise exception
     end
   end
