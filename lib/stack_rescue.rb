@@ -6,12 +6,12 @@ class StackRescue
 
   def initialize(exception)
     @exception         = exception
-    @site              = options.fetch(:site, "site:stackoverflow.com")
+    @site              = options.fetch(:site, "stackoverflow.com")
     @number_of_results = options.fetch(:number_of_results, 5)
   end
 
   def query
-    site_query = site.nil? ? "" : "site:#{site}"
+    site_query = "site:#{site}"
     "#{site_query} #{exception}"
   end
 
