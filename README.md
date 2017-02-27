@@ -1,6 +1,6 @@
 # StackRescue
 
-A gem for Rails 3 and 4 to automatically search Google for exceptions raised in your Rails applications.
+A gem for Rails to automatically search Google for exceptions raised in your Rails applications.
 
 After installing, you should see output like this in your Rails logs. This doesn't interfere with [better_errors](https://github.com/charliesome/better_errors) either!
 
