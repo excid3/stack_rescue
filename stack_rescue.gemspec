@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Oliver"]
   spec.email         = ["excid3@gmail.com"]
   spec.summary       = %q{Automatically searches Google for exceptions raised in your Rails application}
-  spec.description   = %q{Rails 3 and 4 apps can automatically see Google search results for the exception that was just raised in their Rails logs}
+  spec.description   = %q{Rails apps can automatically see Google search results for the exception that was just raised in their Rails logs}
   spec.homepage      = ""
   spec.license       = "MIT"
 
