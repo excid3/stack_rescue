@@ -6,7 +6,7 @@ class StackRescue
 
   def initialize(exception)
     @exception         = exception
-    @site              = options.fetch(:site, "site:stackoverflow.com")
+    @site              = options.fetch(:site, "stackoverflow.com")
     @number_of_results = options.fetch(:number_of_results, 5)
   end
 
